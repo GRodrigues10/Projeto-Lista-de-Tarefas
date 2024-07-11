@@ -1,0 +1,207 @@
+@media screen and (max-width:319px) {
+    .header h1{
+        font-size: 1.7rem;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    div input{
+        width: 200px;
+        padding-block: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:0px;
+        border-top-right-radius: 5px;
+        font-size: 0.9rem;
+    }
+
+    div .inputBtn{
+        padding-block: 5px;
+        width: 100%;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border: 1px solid black;
+        font-size: 0.9rem;
+    }
+
+    ol > li{
+        width: 200px;
+        font-size: 0.9rem;
+    }
+
+   li > .deleteBtn, li > .moveBtn{
+
+        font-size: 0.7rem;
+        padding: 4px;
+    }
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:467px) {
+    .header h1{
+        font-size: 2.4rem;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    div input{
+        width: 300px;
+        padding-block: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:0px;
+        border-top-right-radius: 5px;
+       
+        
+    }
+
+    div .inputBtn{
+        padding-block: 10px;
+        width: 100%;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border: 1px solid black;
+    }
+
+    ol > li{
+        width: 300px;
+        font-size: 1rem;
+    }
+
+   li > .deleteBtn, li > .moveBtn{
+
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+   
+
+
+}
+
+
+
+@media screen and (min-width:468px) and (max-width:599px) {
+    .header h1{
+        font-size: 2.8rem;
+    }
+
+    div input{
+        width: 350px;
+        padding-block: 10px;
+    }
+
+    div .inputBtn{
+        padding-block: 10px;
+    }
+
+    ol > li{
+        width: 450px;
+        font-size: 1.2rem;
+    }
+
+   li > .deleteBtn, li > .moveBtn{
+
+        font-size: 1.1rem;
+    }
+   
+
+
+}
+
+
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    .header h1{
+        font-size: 3rem;
+    }
+
+    div input{
+        width: 400px;
+        padding-block: 10px;
+    }
+
+    div .inputBtn{
+        padding-block: 10px;
+    }
+
+    ol > li{
+        width: 600px;
+        font-size: 1.4rem;
+    }
+
+   li > .deleteBtn, li > .moveBtn{
+
+        font-size: 1.2rem;
+    }
+
+}
+
+    @media screen and (min-width:769px) and (max-width:992px) {
+
+        .header h1{
+            font-size: 3rem;
+        }
+    
+        div input{
+            width: 400px;
+            padding-block: 10px;
+        }
+    
+        div .inputBtn{
+            padding-block: 10px;
+        }
+    
+        ol > li{
+            width: 600px;
+            font-size: 1.4rem;
+        }
+    
+       li > .deleteBtn, li > .moveBtn{
+    
+            font-size: 1.2rem;
+        }
+
+    }
+
+    @media screen and (min-width:1200px){
+
+        .header h1{
+            font-size: 4.5rem;
+        }
+    
+        div input{
+            width: 500px;
+            padding-block: 20px;
+            font-size: 1.5rem;
+        }
+    
+        div .inputBtn{
+
+            padding-block: 20px;
+            width: 150px;
+            font-size: 1.5rem;
+           
+        }
+    
+        ol > li{
+            width: 800px;
+            font-size: 1.7rem;
+        }
+    
+       li > .deleteBtn, li > .moveBtn{
+    
+            font-size: 1.4rem;
+        }
+
+    }
+   
+
+   
+
+
