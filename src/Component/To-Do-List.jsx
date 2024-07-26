@@ -6,11 +6,11 @@ function ToDoList(){
     const [newTask, setNewTask] = useState('');
     function handleInputChange(event) {
         const value = event.target.value;
-        if(value.length < 30){
+        if(value.length < 40){
             setNewTask(value);
         }
         else{
-            alert('Erro: A tarefa deve ter menos de 30 caracteres.');
+            alert('Erro: A tarefa deve ter menos de 40 caracteres.');
 
         }
     }
